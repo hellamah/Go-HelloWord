@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func FuncaoA() {
+func tipoVariavel() {
 	fmt.Println("Esta é a função A.")
 
 	const PI float64 = 3.1415

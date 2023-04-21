@@ -3,9 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	FuncaoA()
-	FuncaoB()
-	retornoC := FuncaoC()
+	conversoes()
+	condicoes(4)
+	tipoVariavel()
 
-	fmt.Println(retornoC)
+	if i := ifComIni(); i > 5 {
+		fmt.Println("Ganhou: ", i)
+	} else {
+		fmt.Println("Perdeu: ", i)
+	}
+
 }

@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func FuncaoB() {
+func conversoes() {
 	fmt.Println("Esta é a função B.")
 
 	x := 2.4
