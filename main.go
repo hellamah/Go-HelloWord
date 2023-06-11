@@ -64,4 +64,15 @@ func main() {
 	//Exemplo de Defer
 	defer fmt.Println("Fim!")
 
+	//--------------------------------------------------------------
+	//Exemplo de Struct
+
+	var produto1 produto
+	produto1 = produto{
+		nome:     "Teste",
+		preco:    1.79,
+		desconto: 0.05,
+	}
+
+	fmt.Println(produto1, produto1.precoComDesconto())
 }
