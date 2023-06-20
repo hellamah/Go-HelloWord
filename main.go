@@ -75,4 +75,15 @@ func main() {
 	}
 
 	fmt.Println(produto1, produto1.precoComDesconto())
+
+	//--------------------------------------------------------------
+	//Exemplo de Pseudo Herança
+
+	pseudoH := ferrari{}
+	pseudoH.nome = "F40"
+	pseudoH.velocidadeAtual = 0
+	pseudoH.turboLigado = true
+
+	pseudoH.tipoHeranca()
+
 }
