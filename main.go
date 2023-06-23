@@ -85,5 +85,8 @@ func main() {
 	pseudoH.turboLigado = true
 
 	pseudoH.tipoHeranca()
+	//--------------------------------------------------------------
+	//Exemplo de Conversão de JSON
 
+	gerarJson()
 }
