@@ -12,6 +12,7 @@ type Ponto struct {
 func catetos(a, b Ponto) (cx, cy float64) {
 	cx = math.Abs(b.x - a.x)
 	cy = math.Abs(b.y - a.y)
+
 	return
 }
 
